@@ -2,7 +2,6 @@
 Palidroma
 Chiedere all’utente di inserire una parola
 Creare una funzione per capire se la parola inserita è palindroma
-
 */
 
 const askWord = prompt("Inserisci una parola e scopri se è palindroma!") // Chiedere all'utente di inserire una parola
@@ -31,6 +30,7 @@ let palindromeWord = palindrome();
 
 console.log(askWord + " " + "è un palindromo" + "?");
 console.log(palindromeWord);
+
 /*
 JSON stringify serve a convertire un oggetto o un valore JavaScript in una stringa JSON.
 In questo caso senza il metodo JSON stringify le parole inserite non erano mai dei palindromi (anche se la parola inserita in realtà lo era).
