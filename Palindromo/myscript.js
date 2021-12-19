@@ -26,10 +26,10 @@ function palindrome(){
     }
 }
 
-let palindromeWord = palindrome();
+let palindromeWord = palindrome(); // La funzione viene "inserita" in una variabile
 
 console.log(askWord + " " + "è un palindromo" + "?");
-console.log(palindromeWord);
+console.log(palindromeWord); // Viene mostrato in console se la parola indicata è un palindromo
 
 /*
 JSON stringify serve a convertire un oggetto o un valore JavaScript in una stringa JSON.
